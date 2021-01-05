@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap");
+p {
+  font-size: 1.3rem;
+}
+
+* {
+  font-family: 'Dosis', sans-serif;
+}
+
+@media (min-width: 1292px) and (max-width: 1481px) {
+  .comment {
+    right: 100px !important;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 1291px) {
+  .comment {
+    right: 20px !important;
+  }
+}
+
+.mainCont {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body {
+  background-color: #DFDBE5;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23c6c3cc' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.emptyScreen img {
+  width: 180px;
+  margin: 40px;
+}
+
+.emptyScreen h1 {
+  color: #408ec6;
+}
+
+.emptyScreen h3 {
+  color: #878787;
+}
+
+.task-item-wrap {
+  border-radius: 5px;
+  background-color: #A8DADC;
+  margin-top: 10px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  word-wrap: break-word !important;
+}
+
+.task-item-wrap p {
+  margin-bottom: 0;
+  padding: 5px 10px;
+}
+
+.task-item-wrap button {
+  border-radius: 0px 5px 5px 0px;
+}
+
+#toDoContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.completed {
+  background-color: #cbcbcb !important;
+}
+
+.input-wrap {
+  width: 100%;
+}
+
+#inputField {
+  width: 450px;
+  font-size: 1.3rem;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.comment {
+  position: absolute;
+  top: 190px;
+  right: 280px;
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+  width: 280px;
+}
+
+.comment li {
+  font-size: 1.3rem;
+}
+
+#addToDo {
+  width: 60px;
+  height: 30px;
+  position: relative;
+  top: -3px;
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  border-color: green;
+  outline: none;
+}
+
+.inputZone {
+  height: 300px;
+}
+
+.inputZone h1 {
+  padding-top: 2em;
+  padding-bottom: 1rem;
+  font-size: 38px;
+}
+
+#tooltip {
+  display: none;
+  font-size: 1.3rem;
+  background-color: #e8e8e8;
+  width: 300px;
+  position: absolute;
+  top: 179px;
+  z-index: 1;
+  left: 40%;
+  -webkit-box-shadow: -5px 10px 18px -1px rgba(0, 0, 0, 0.39);
+  box-shadow: -5px 10px 18px -1px rgba(0, 0, 0, 0.39);
+  padding: 0px 10px;
+}
+
+.listo {
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=style.css.map */
